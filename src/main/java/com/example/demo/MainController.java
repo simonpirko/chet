@@ -12,6 +12,6 @@ public class MainController {
 	@GetMapping(produces = {"application/json"})
 	@ResponseBody
 	public String index() {
-		return "hello world";
+		return "hello worlds";
 	}
 }
